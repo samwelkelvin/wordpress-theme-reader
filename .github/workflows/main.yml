@@ -1,0 +1,10 @@
+name: CI Workflow
+ description: A CI workflow for a Python project
+  on:
+    push:
+        branches: [ main ]
+        pull_request:
+            types: [ opened, synchronize, reopened, edited ]
+            pull_request:
+                branches: [ main ]
+

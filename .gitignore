@@ -1,0 +1,10 @@
+node_modules
+.git
+vendor
+psalm
+#lint-staged.config.js
+#.php-cs-fixer.php
+.php-cs-fixer_1.php
+.php-cs-fixer_2.php
+.php-cs-fixer.cache
+composer.lock

@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watchAll",
+    "lint-all": "composer cs-check && composer psalm-dead-code",
+    "lint": "lint-staged",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "eslint": "^9.14.0",
+    "globals": "^15.12.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^15.2.10",
+    "prettier": "3.3.3"
+  }
+}
