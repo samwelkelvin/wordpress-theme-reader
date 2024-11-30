@@ -8,6 +8,7 @@ if (get_theme_mod('blog_pages_sidebar') === 'left_sidebar') {
 	$style = 'style="flex-wrap: wrap-reverse";';
 }
 
+var_dump(get_theme_mod('blog_pages_sidebar'));
 ?>
 
 <style>
@@ -47,7 +48,7 @@ if (get_theme_mod('blog_pages_sidebar') === 'left_sidebar') {
                 </div>
 
                 <!-- if configured to show sidebar on right -->
-                <?php if (get_theme_mod('blog_pages_sidebar') === 'right_sidebar'): ?>
+                <?php if (get_theme_mod('blog_pages_sidebar') === 'right_sidebar' || !get_theme_mod('blog_pages_sidebar')): ?>
                     <!-- sidebar -->
                     <div class="col-md-4  <?php echo  get_theme_mod('blog-layout') === 'grid' ? 'col-lg-3' : 'col-lg-4' ?>">
 

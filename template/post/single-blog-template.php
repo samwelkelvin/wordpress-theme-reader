@@ -39,8 +39,6 @@ if (get_theme_mod('show_sidebar_in_blog_pages')) {
         font-size: 16px;
     }
 
-    .blog_title {}
-
     .content {
         margin-bottom: 40px
     }
